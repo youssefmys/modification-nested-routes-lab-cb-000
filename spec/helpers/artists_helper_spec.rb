@@ -24,4 +24,5 @@ RSpec.describe ArtistsHelper, type: :helper do
     expect(helper.display_artist(@song)).to include(artist_path(@artist))
     expect(helper.display_artist(@song)).to include(@artist.name)
   end
+
 end
